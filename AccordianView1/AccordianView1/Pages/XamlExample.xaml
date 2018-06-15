@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AccordianView1.Pages.XamlExample"
+             xmlns:ctrl="clr-namespace:AccordianView1.Pages">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Frist Accordion :" />
+            <ctrl:Accordion x:Name="MainOne" />
+            <Label Text="Second Accordion :" />
+            <ctrl:Accordion x:Name="SecOne" FirstExpaned = "true" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
